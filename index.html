@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="import" href="About/about.html">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="import" href="about.html">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
@@ -13,7 +13,8 @@
 </head>
 <body>
     <header>
-        <a href="About/about.html">About</a>
+        <img id="logo-collect" src="images/logo.png" alt="Logo">
+        <a href="about.html">About</a>
     </header>
 
     <div id="map"></div>
@@ -45,6 +46,6 @@
 
         var marker = L.marker([-23.1791, -45.8872]).addTo(map);
     </script>
--->
+    -->
 </body>
 </html>

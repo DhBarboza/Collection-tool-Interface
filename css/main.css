@@ -5,10 +5,19 @@
 
 header {
     display: flex;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
     align-items: center;
     height: 50px;
     width: 100%;
-    background-color: rgb(0, 66, 0);
+    background-color: #0c7c30;
+}
+
+#logo-collect {
+    height: 5;
+    width: 5;
 }
 
 header a {
@@ -16,6 +25,7 @@ header a {
     position: absolute;
     text-align: right;
     color: white;
+    text-decoration: none;
 }
 
 #map {
