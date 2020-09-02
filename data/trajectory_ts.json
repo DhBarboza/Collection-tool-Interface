@@ -1,0 +1,75 @@
+{
+  "query": {
+    "collections": [
+      "mapbiomas_cerrado_4_1"
+    ],
+    "end_date": null,
+    "latitude": -12.662241,
+    "longitude": -45.265021,
+    "start_date": null
+  },
+  "result": {
+    "trajectory": [
+      {
+        "class": "Formação Campestre",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2007"
+      },
+      {
+        "class": "Formação Campestre",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2008"
+      },
+      {
+        "class": "Cultura Anual e Perene",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2009"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2010"
+      },
+      {
+        "class": "Cultura Anual e Perene",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2011"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2012"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2013"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2014"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2015"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2016"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2017"
+      },
+      {
+        "class": "Formação Savânica",
+        "collection": "mapbiomas_cerrado_4_1",
+        "date": "2018"
+      }
+    ]
+  }
+}
