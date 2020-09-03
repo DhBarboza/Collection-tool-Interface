@@ -1,0 +1,46 @@
+<head>
+    <title>Area Chart</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', {'packages': ['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Year', 'Formação Campestre', 'Cultura Anual Perene', 'Formação Savanica'],
+                ['2007', 70 , 20 , 10],
+                ['2008', 68, 20, 12],
+                ['2009', 40, 50, 10],
+                ['2010', 30, 30, 40],
+                ['2011', 25, 45, 30],
+                ['2012', 20, 30, 50],
+                ['2013', 20, 25, 55],
+                ['2014', 19, 21, 60],
+                ['2015', 18, 20, 62],
+                ['2016', 17, 19, 64],
+                ['2017', 13, 17, 70],
+                ['2018', 12, 16, 72],
+            ]);
+
+            var options = {
+                title: 'Relação de Presença, Referente aos anos: 2007 - 2018',
+                hAxis: {
+                    title: 'Year',
+                    titleTextStyle: {
+                        color: '#333'
+                    }
+                },
+                vAxis: {
+                    minValue: 0
+                }
+            };
+
+            var chart = new google.visualization.AreaChart(document.getElementById('area-chart'));
+            chart.draw(data, options);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="area-chart" style="width: 100%; height: 500px"></div>
+</body>

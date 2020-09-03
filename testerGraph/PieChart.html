@@ -11,20 +11,25 @@
             data.addColumn('string', 'Class');
             data.addColumn('number', 'Percentage');
             data.addRows([
-                ['Formação Savânica', 8],
-                ['Formação Campestre', 2],
-                ['Cultura Anual e Perene', 2]
+                ['Formação Savânica', 61.5],
+                ['Formação Campestre', 13.3],
+                ['Cultura Anual e Perene', 13.3]
             ]);
+
+            var options = {
+                title: 'Relação de Presença, Referente aos anos: 2007 - 2018',
+                width: 400,
+                height: 300
+            }
 
             // Instantiate and draw the chart.
             var chart = new google.visualization.PieChart(document.getElementById('myPieChart'));
-            chart.draw(data, null);
+            chart.draw(data, options);
         }
     </script>
 </head>
 
 <body>
-    <p>Relação de Presença, Referente aos anos: 2007 - 2018</p>
     <!-- Identify where the chart should be drawn. -->
     <div id="myPieChart"></div>
 </body>
