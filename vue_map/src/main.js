@@ -9,7 +9,5 @@ Vue.component('l-tile-layer', LTileLayer);
 Vue.component('l-marker', LMarker);
 
 new Vue ({
-    el: '#app',
-    template: '<App/>',
-    components: { App },
-})
+    render: h => h(App)
+}).$mount('#app')

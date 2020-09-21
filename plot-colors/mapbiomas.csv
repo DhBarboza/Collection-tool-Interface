@@ -1,0 +1,22 @@
+id,label, cor, alpha
+1,Formação Florestal,#274e13,255
+2,Formação Savânica,#32cd32,255
+3,Mangue,#687537,255
+4,Floresta Plantada,#935132,255
+5,Área Úmida não Florestal,4#5c2a5,255
+6,Formação Campestre,#b8af4f,255
+7,Outra Formação Natural não Florestal,#bdb76b,255
+8,Pastagem,#ffd966,255
+9,Agricultura,e974ed,255
+10,Cultura Anual e Perene,#d5a6bd,255
+11,Cultura Semi-Perene,#c27ba0,255
+12,Mosaico de Agricultura e Pastagem,#ffefc3,255
+13,Praia e Duna,#dd7e6b,255
+14,Infraestrutura Urbana,#af2a2a,255
+15,Outra Área não Vegetada,#ff99ff,255
+16,Não observado,#d5d5e5,255
+17,Afloramento Rochoso,#ff8c00,255
+18,Mineração,#8a2be2,255
+19,Aquicultura,#29eee4,255
+20,Rio. Lago e Oceano,#0000ff,255
+21,Apicum,#968c46,255

@@ -1,6 +1,6 @@
 <template>
   <div style="height: 500px; width: 100%">
-      <l-map
+    <l-map
         :zoom="zoom"
         :center="center"
         :options="mapOptions"
@@ -13,7 +13,7 @@
           :attribution="attribution"
         />
         <l-marker :lat-lng="withTooltip"></l-marker>
-      </l-map>
+    </l-map> 
   </div>
 </template>
 
